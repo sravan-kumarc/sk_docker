@@ -38,11 +38,10 @@
 
 ```
 
-```
 
----
 
 ## 📦 Image Commands
+```
 
 | Purpose             | Command                                           |
 |---------------------|--------------------------------------------------|
@@ -57,9 +56,10 @@
 | Load image          | `docker load -i image.tar`                       |
 | Show history        | `docker history <image>`                         |
 
----
+```
 
 ## 🧱 Container Commands
+```
 
 | Purpose                  | Command                                         |
 |--------------------------|-------------------------------------------------|
@@ -79,10 +79,10 @@
 | Show container processes | `docker top <container>`                        |
 | Export/Import filesystem | `docker export <container> -o export.tar` <br>`docker import export.tar <new-image>` |
 
----
-
+```
 ## 🗄 Volumes
 
+```
 - **List**:  
   `docker volume ls`
 - **Create**:  
@@ -98,10 +98,11 @@
 - **Prune unused**:  
   `docker volume prune`
 
----
+```
 
 ## 🌐 Networks
 
+```
 - **List**:  
   `docker network ls`
 - **Create**:  
@@ -114,10 +115,11 @@
   `docker network connect <network> <container>`  
   `docker network disconnect <network> <container>`
 
----
+```
 
 ## 🧰 System Ops
 
+```
 - **Show disk usage**:  
   `docker system df`
 - **Prune all unused data**:  
@@ -126,11 +128,12 @@
   `docker stats`
 - **Show events**:  
   `docker events`
+```
 
----
 
 ## 🔐 Registry & Publishing
 
+```
 - **Login:**  
   `docker login`  
   `docker login registry.example.com`
@@ -140,8 +143,7 @@
   `docker push username/repo:tag`
 - **Pull:**  
   `docker pull username/repo:tag`
-
----
+```
 
 ## 📝 Dockerfile (All Fields & Multistage)
 
@@ -175,13 +177,15 @@ CMD ["-g", "daemon off;"]
 ```
 
 **Dockerfile Key Fields:**  
+```
 - `FROM` : base image, allows multistage
-- `LABEL`, `ARG`, `ENV`, `WORKDIR`
+- `LABEL`,
+- `ARG`, `ENV`, `WORKDIR`
 - `COPY`, `ADD`, `RUN`, `HEALTHCHECK`, `EXPOSE`
 - `USER`, `VOLUME`, `ENTRYPOINT`, `CMD`
 - `COPY --from=builder` : for multistage builds
 
----
+```
 
 ## 🧩 Docker Compose Example
 
@@ -221,6 +225,7 @@ volumes:
     driver: local
 ```
 
+
 ---
 
 ## 🚦 Quick Publish Workflow
@@ -235,7 +240,7 @@ docker pull yourusername/app:1.0
 ---
 
 ## 📋 Reference Tables
-
+```
 ### 🔥 Container Life Cycle
 | Action         | Command                             |
 |----------------|-------------------------------------|
