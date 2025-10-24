@@ -1,9 +1,4 @@
-
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" style="height:64px;margin-right:32px"/>
-
-# .md file
-
-Here is your **Docker Master Cheat Sheet** formatted as a Markdown (.md) file. You can copy and save this into a file named `docker-master-cheatsheet.md`:
+**Docker Master Cheat Sheet**
 
 ```markdown
 # Docker Master Cheat Sheet (No Swarm)
