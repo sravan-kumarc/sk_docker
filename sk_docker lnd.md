@@ -25,7 +25,7 @@
 ## 🛠 Installation & Setup
 
 ```
-
+```
 - curl -fsSL https://get.docker.com -o get-docker.sh
 - sudo sh get-docker.sh
 
@@ -35,6 +35,8 @@
 - docker version     # Show Docker version
 - docker info        # Show Docker info
 - docker help        # List commands
+
+```
 
 ```
 
@@ -265,6 +267,3 @@ docker pull yourusername/app:1.0
 > **⭐ This cheat sheet is designed for DevOps, cloud, or daily use. Copy and personalize for your own Docker journey!**
 
 ```
-
-This design uses tables, bullet points, subheadings, and clear sections for ease of reading and navigation in any Markdown-compatible viewer or documentation tool.  
-If you’d like even more advanced Markdown (tasks, collapsible blocks, colorized text, etc.), let me know your preferred viewer and I’ll customize further!
